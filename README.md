@@ -3,7 +3,8 @@ Testing react-native-youtube with react-native-music-control
 
 Right now this app just plays a YouTube video and is able to make some logs on the current duration by clicking the Play button on
 the lock screen. Not really useful since I stopped fooling with the lockscreen when I couldn't find more information on getting
-the former library to play videos in the background.
+the former library to play videos in the background. Replace 'YourAPIKey' in the YouTube component with your Google API Dev key
+which needs to be authorized to use the YouTube Data API V3 service.
 
 
 I really just wanted to use react-native to play YouTube on the lockscreen so I can listen to music without the screen always on.
